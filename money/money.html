@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="money.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter your amount</p>
+                <input type="text" value="1" />
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>from</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/FR/flat/64.png" alt="flag is not found" />
+                        <select name="from"></select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p>to</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BD/flat/64.png" alt="flag is not found" />
+                        <select name="to"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">0 USD = 0 BDT</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="list.js"></script>
+    <script src="money.js"></script>
+</body>
+
+</html>

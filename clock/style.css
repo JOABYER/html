@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Redaction:ital,wght@0,400;0,700;1,400&display=swap");
+
+
+body{
+    background-color: #071B2B;
+    color: #fff;
+    font-family: 'Nunito',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+ .clock-body{
+    
+    background-color: #167D8D;
+    padding: 1rem;
+    width: 30rem;
+    height: fit-content;
+    border-radius: 1rem;
+}
+
+.time-body{
+    background-color:#B9E4E8;
+    color: #071B2B;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#date{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    color: #071B2B;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+#period{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+}
